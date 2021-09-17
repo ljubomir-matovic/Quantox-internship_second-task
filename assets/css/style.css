@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+:root{
+    --dark-blue:rgb(77,150,168);
+    --dark-violet:rgb(133,95,177);
+    --dark:rgb(40,40,61);
+    --gray:rgb(135,135,157);
+    --light-blue:rgb(143,227,249);
+    --light-violet:rgb(217,184,255);
+    --white:rgb(250,250,250);
+}
+*{
+    margin:0;
+    padding: 0;
+}
+h1{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    color:var(--dark);
+}
+h2{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color:var(--dark);
+}
+.overline{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--dark-blue);
+}
+body{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color:var(--gray);
+}
+.container{
+    width:100vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:769px){
+    .container{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        margin-top: 48px;
+    }
+}
+@media screen and (min-width:376px) and (max-width:768px){
+    
+}
+@media screen and (max-width:375px){
+
+}
